@@ -1,7 +1,38 @@
-body {	
-	background-color: gray;
+body {
+	color: #43444d;
+	background-color: #d4edff;
+	text-align: center;
+	font-family: impact;
 }
 
-h1, p {
-	color: white;
+h1 {
+	color: #43444d;
+	text-align: left;
+	font-family: "courier new", courier, monospace;
+	font-size: 85pt;
+	margin-top: 30px;
+	margin-bottom: 5px;
+	margin-left: 30px;	
+}
+
+#slogan {
+	font-family: helvetica;
+	font-weight: bold;
+	font-size: 18pt;
+}
+
+li {
+	color: #43444d;
+	text-align: left;
+	font-family: "courier new", courier, monospace;
+}
+
+p {
+	color: #43444d;
+	text-align: center;
+	font-family: "courier new", courier, monospace;
+}
+
+#image{
+	margin-top: 4px;
 }
