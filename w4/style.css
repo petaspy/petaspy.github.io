@@ -1,0 +1,46 @@
+
+body {
+	color: #434446;
+	background-color: #ffffff;
+	text-align: center;
+	font-family: impact;
+}
+
+h1 {
+	color: #43444d;
+	text-align: center;
+	font-family: 'Monoton', cursive;
+	font-size: 85px;
+	margin-top: 30px;
+	margin-bottom: 5px;
+	margin-left: 30px;	
+}
+
+
+ul {
+	width: 105px;
+	margin: 0 auto;
+}
+
+li {
+	color: #43444d;
+	text-align: left;
+	font-family: "Courier New", courier, monospace;
+
+}
+
+p {
+	color: #43444d;
+	text-align: center;
+	font-family: "Courier New", courier, monospace;
+}
+
+#image{
+	margin-top: 4px;
+}
+
+#slogan {
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 18px;
+}
