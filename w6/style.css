@@ -1,0 +1,116 @@
+body {
+	font-family: 'BenchNine', sans-serif;
+	font-size: 30px;
+	background-color: #FFF59E;
+}
+
+h2 {
+	color: #FF7B0D;	
+	font-size: 1em;
+	text-align: center;
+}
+
+nav {
+	color: #FFF59E;
+	font-family: 'BenchNine', sans-serif;
+	font-weight: 400;
+	text-align: center;
+	padding: 1em 1em 1em 1em;
+	margin-top: 2em;
+	margin-bottom: 3em;
+}
+
+a:link {
+	color: #FFF59E;
+}
+
+a:visited {
+	color: #FFF59E;
+}
+
+a:hover {
+	color: #FFF59E;
+}
+
+a:active {
+	color: #FFF59E;
+}
+
+a.login {
+	color: #FFF59E;
+}
+
+span {
+	font-variant: small-caps;
+	font-family: 'BenchNine', sans-serif;
+	letter-spacing: .25em;
+	padding: .4em .4em .4em .4em;
+	margin: .4em .4em .4em .4em;
+	background: #E88F0C;
+	border-style: solid;
+	border-width: 0.15em;
+	border-color: #FFB100;
+}
+
+form {
+	font-size: 0.5em;
+	font-family: #FFB100;
+}
+
+img {
+	width: 6.75em;
+	opacity: 0.50;
+	float: center;
+}
+
+button {
+	width: 11em;
+	padding: 1em;
+	margin-top: 1em;
+}
+
+.art {
+	float: left;
+	border-style: solid;
+	border-width: 0.15em;
+	border-color: #E88F0C;
+	padding: 0.375em 1.6em 1.6em 1.6em;
+	margin: 0.938em 0.938em 0.938em 1.523em;
+	max-width: 18em;
+}
+
+.photo {
+    float: left;
+	border-style: solid;
+	border-width: 0.15em;
+	border-color: #E88F0C;
+	padding: 0.375em 1.6em 1.6em 1.6em;
+	margin: 0.938em 0.938em 0.938em 0.938em;
+	max-width: 18em;
+}
+
+.img {
+	width: 7em;
+	float: left;
+	border-style: solid;
+	border-width: 0.15em;
+	border-color: #E88F0C;
+	padding: 2.2em 2.2em 2.2em 2.2em;
+	margin: 0.938em 0.938em 0.938em 0.938em;
+	max-width: 18em;
+}
+
+#login {
+	padding: .8em 2 .8em 2;
+}
+
+#art {
+	line-height: .75em;
+}
+
+#photo {
+	line-height: .75em;
+}
+
+
+
