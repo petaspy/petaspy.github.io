@@ -8,35 +8,33 @@
 <body>
 	<header>
 		<nav class="nav">
-			<a href="login.html"><span>LOGIN</span></a>
-			<a href="find.html"><span>FIND AN ARTIST</span></a>
-			<a href="customerservice.html"><span>CUSTOMER SERVICE</span></a>
+			<ul>
+			<li><a href="login.html"><span>LOGIN</span></a></li>
+			<li><a href="find.html"><span>FIND AN ARTIST</span></a></li>
+			<li><a href="customerservice.html"><span>CUSTOMER SERVICE</span></a></li>
+		</ul>
 		</nav>
 	</header>
-	<section class="art">
-			<div id="art">
-				<h2>ART</h2>
+	<div id="main">
+	<section class="column">
+				<h2 id="art">ART</h2>
 		<form>
-			Format + Resolution (jpg, 800x1000):<br>
+			<p>Format + Resolution (eg- jpg, 800x1000):</p>
 			<input type="text" name="format">
-			<br>
-			Background of Photo:<br>
+			<p>Background of Photo:</p>
 			<input type="text" name="background">
-			<br>
-			Colors in foreground + background:<br>
+			<p>Colors in foreground + background:</p>
 			<input type="text" name="colors">
 			<br>
-			Main Topic:<br>
+			<p>Main Topic:</p>
 			<input type="text" name="topic">
 			<br>
-			Art Style:<br>
+			<p>Art Style:</p>
 			<input type="text" name="art">
-			<br>
 			<button typ="button" onclick="alert('Find your print!)">FIND!</button>
 		</form>
-			</div>
 		</section>
-    <section class="photo">
+    <section class="column">
 			<div id="photo">
 				<h2>PHOTO</h2>
 			<form>
@@ -56,10 +54,11 @@
 		</form>
 			</div>
 				</section>
-		<section class="img">		
+		<section class="column">		
 	<div id="hero">
 		<img src="cs.jpg">
 		</div>
 		</section>
+	</div>
 	</body>
 </html>

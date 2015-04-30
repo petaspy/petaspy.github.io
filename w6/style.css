@@ -11,48 +11,48 @@ h2 {
 }
 
 nav {
-	color: #FFF59E;
-	font-family: 'BenchNine', sans-serif;
-	font-weight: 400;
 	margin: 2em .5em 3em .75em;
 }
 
-nav a {
-	text-decoration: none;
-	padding: .75em .75em .75em .75em;
-	margin-top: 2em;
-	margin-bottom: 3em;
-	text-align: center;
-}
-
-a:link {
-	color: #FFF59E;
-}
-
-a:visited {
-	color: #FFF59E;
-}
-
-a:hover {
-	color: #FFF59E;
-	text-decoration: underline;
-}
-
-a:active {
-	color: #FFF59E;
-	text-decoration: underline;
-}
-
-span {
-	font-variant: small-caps;
-	font-family: 'BenchNine', sans-serif;
-	letter-spacing: .25em;
+li {
 	padding: .4em .4em .4em .4em;
 	margin: .4em .4em .4em .4em;
 	background: #E88F0C;
 	border-style: solid;
 	border-width: 0.15em;
 	border-color: #FFB100;
+	width: 12em;
+	list-style: none;
+	display: inline-block;
+}
+
+li a {
+	text-decoration: none;
+	font-family: 'BenchNine', sans-serif;
+	font-size: .75em;
+	text-align: center;
+	color: #FFF59E;
+	font-weight: 400;
+	text-transform: uppercase;
+	display: inline-block;
+}
+
+li a:link {
+	color: #FFF59E;
+}
+
+li a:visited {
+	color: #FFF59E;
+}
+
+li a:hover {
+	color: #FFF59E;
+	text-decoration: underline;
+}
+
+li a:active {
+	color: #FFF59E;
+	text-decoration: underline;
 }
 
 form {
@@ -72,35 +72,14 @@ button {
 	margin-top: 1em;
 }
 
-.art {
+.column {
 	float: left;
 	border-style: solid;
 	border-width: 0.15em;
 	border-color: #E88F0C;
-	padding: 0.375em 1.6em 1.6em 1.6em;
-	margin: 0.938em 0.938em 0.938em 1.523em;
-	max-width: 18em;
-}
-
-.photo {
-    float: left;
-	border-style: solid;
-	border-width: 0.15em;
-	border-color: #E88F0C;
-	padding: 0.375em 1.6em 1.6em 1.6em;
-	margin: 0.938em 0.938em 0.938em 0.938em;
-	max-width: 18em;
-}
-
-.img {
-	width: 7em;
-	float: left;
-	border-style: solid;
-	border-width: 0.15em;
-	border-color: #E88F0C;
-	padding: 2.2em 2.2em 2.2em 2.2em;
-	margin: 0.938em 0.938em 0.938em 0.938em;
-	max-width: 18em;
+	padding: .4em .4em .4em .4em;
+	margin: .4em .4em .4em .4em;
+	width: 12em;
 }
 
 #login {
@@ -113,6 +92,10 @@ button {
 
 #photo {
 	line-height: .75em;
+}
+
+#main {
+	margin: 2em .5em 3em .75em;
 }
 
 
